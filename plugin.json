@@ -1,0 +1,21 @@
+{
+    "id" : "<NAME OF YOUR REPORT>",
+    "version" : "<VERSION",
+    "name" : "<CHANGE ME>",
+    "description" : "<CHANGE ME>",
+    "install": {
+        "windows": [],
+        "linux": [],
+        "darwin": []
+    },
+    "command" : {
+        "windows" : ["bin/<NAME OF YOUR REPORT>"],
+        "linux" : ["bin/<NAME OF YOUR REPORT>"],
+        "darwin" : ["bin/<NAME OF YOUR REPORT>"]
+    },
+    "scope" : ["Execution"],
+    "gaugeVersionSupport": {
+        "minimum": "<MINIMUM GAUGE VERSION>",
+        "maximum": "<MAXIMUM GAUGE VERSION>"
+    }
+}
